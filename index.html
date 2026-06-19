@@ -61,7 +61,8 @@
             transition: background 0.3s;
         }
         .nav { display: flex; align-items: center; justify-content: space-between; height: 78px; }
-        .logo { color: var(--white); font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 700; letter-spacing: 1px; }
+        .logo { color: var(--white); font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 700; letter-spacing: 1px; display:flex; align-items:center; }
+        .logo img { height:44px; width:auto; display:block; }
         .logo span { color: var(--gold); }
         .nav-links { display: flex; gap: 2.2rem; list-style: none; }
         .nav-links a { color: rgba(255,255,255,0.85); font-size: 0.92rem; font-weight: 500; position: relative; padding: 0.4rem 0; }
@@ -260,6 +261,13 @@
                         </svg>
                     </div>
                 </div>
+                <div class="credibility">
+                    <div class="cred-item"><h4>Active Operations</h4><p>Tanzania | Côte d'Ivoire</p></div>
+                    <div class="cred-item"><h4>Regional Presence</h4><p>Seychelles | South Africa | Kenya | Nigeria | Malawi</p></div>
+                    <div class="cred-item"><h4>Focus Sectors</h4><p>Agribusiness | Gaming | Healthcare | Technology | Commercial Ventures | Strategic Investments</p></div>
+                    <div class="cred-item"><h4>Governance-Led</h4><p>Operational Excellence | Compliance | Sustainable Growth</p></div>
+                </div>
+            </div>
         </section>
 
         <!-- About -->
@@ -301,7 +309,7 @@
 
         <!-- Geographic -->
         <section id="geographic-presence" class="section" style="padding:0; background:#ffffff;">
-        <img src="footprint.png" alt="MRH Geographic Presence - Growing Across Africa. Headquarters Seychelles, Active Operations Tanzania and Côte d'Ivoire, Strategic Markets South Africa Kenya Nigeria Malawi, Emerging Opportunities Poland Hungary" style="width:100%; height:auto; display:block;">
+        <img src="footprint.png" alt="MRH Geographic Presence - Growing Across Africa" style="width:100%; height:auto; display:block;">
     </section>
 
         <!-- Strategic Pillars -->
